@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDB76EDB1E3FE45500AF87CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB76EDA1E3FE45500AF87CA /* AppDelegate.swift */; };
+		DDB76EDD1E3FE45500AF87CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB76EDC1E3FE45500AF87CA /* ViewController.swift */; };
+		DDB76EE01E3FE45500AF87CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB76EDE1E3FE45500AF87CA /* Main.storyboard */; };
+		DDB76EE21E3FE45500AF87CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB76EE11E3FE45500AF87CA /* Assets.xcassets */; };
+		DDB76EE51E3FE45500AF87CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB76EE31E3FE45500AF87CA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDB76ED71E3FE45500AF87CA /* TylenolDosageCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TylenolDosageCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB76EDA1E3FE45500AF87CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDB76EDC1E3FE45500AF87CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDB76EDF1E3FE45500AF87CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDB76EE11E3FE45500AF87CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDB76EE41E3FE45500AF87CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDB76EE61E3FE45500AF87CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDB76ED41E3FE45500AF87CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDB76ECE1E3FE45500AF87CA = {
+			isa = PBXGroup;
+			children = (
+				DDB76ED91E3FE45500AF87CA /* TylenolDosageCalculator */,
+				DDB76ED81E3FE45500AF87CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDB76ED81E3FE45500AF87CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB76ED71E3FE45500AF87CA /* TylenolDosageCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB76ED91E3FE45500AF87CA /* TylenolDosageCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				DDB76EDA1E3FE45500AF87CA /* AppDelegate.swift */,
+				DDB76EDC1E3FE45500AF87CA /* ViewController.swift */,
+				DDB76EDE1E3FE45500AF87CA /* Main.storyboard */,
+				DDB76EE11E3FE45500AF87CA /* Assets.xcassets */,
+				DDB76EE31E3FE45500AF87CA /* LaunchScreen.storyboard */,
+				DDB76EE61E3FE45500AF87CA /* Info.plist */,
+			);
+			path = TylenolDosageCalculator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDB76ED61E3FE45500AF87CA /* TylenolDosageCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB76EE91E3FE45500AF87CA /* Build configuration list for PBXNativeTarget "TylenolDosageCalculator" */;
+			buildPhases = (
+				DDB76ED31E3FE45500AF87CA /* Sources */,
+				DDB76ED41E3FE45500AF87CA /* Frameworks */,
+				DDB76ED51E3FE45500AF87CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TylenolDosageCalculator;
+			productName = TylenolDosageCalculator;
+			productReference = DDB76ED71E3FE45500AF87CA /* TylenolDosageCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDB76ECF1E3FE45500AF87CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Alice007;
+				TargetAttributes = {
+					DDB76ED61E3FE45500AF87CA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M6SVS36XK8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DDB76ED21E3FE45500AF87CA /* Build configuration list for PBXProject "TylenolDosageCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDB76ECE1E3FE45500AF87CA;
+			productRefGroup = DDB76ED81E3FE45500AF87CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDB76ED61E3FE45500AF87CA /* TylenolDosageCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDB76ED51E3FE45500AF87CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB76EE51E3FE45500AF87CA /* LaunchScreen.storyboard in Resources */,
+				DDB76EE21E3FE45500AF87CA /* Assets.xcassets in Resources */,
+				DDB76EE01E3FE45500AF87CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDB76ED31E3FE45500AF87CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB76EDD1E3FE45500AF87CA /* ViewController.swift in Sources */,
+				DDB76EDB1E3FE45500AF87CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDB76EDE1E3FE45500AF87CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB76EDF1E3FE45500AF87CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDB76EE31E3FE45500AF87CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB76EE41E3FE45500AF87CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDB76EE71E3FE45500AF87CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDB76EE81E3FE45500AF87CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDB76EEA1E3FE45500AF87CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M6SVS36XK8;
+				INFOPLIST_FILE = TylenolDosageCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alice007.TylenolDosageCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DDB76EEB1E3FE45500AF87CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M6SVS36XK8;
+				INFOPLIST_FILE = TylenolDosageCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Alice007.TylenolDosageCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDB76ED21E3FE45500AF87CA /* Build configuration list for PBXProject "TylenolDosageCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB76EE71E3FE45500AF87CA /* Debug */,
+				DDB76EE81E3FE45500AF87CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB76EE91E3FE45500AF87CA /* Build configuration list for PBXNativeTarget "TylenolDosageCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB76EEA1E3FE45500AF87CA /* Debug */,
+				DDB76EEB1E3FE45500AF87CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDB76ECF1E3FE45500AF87CA /* Project object */;
+}
